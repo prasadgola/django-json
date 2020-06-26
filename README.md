@@ -4,16 +4,16 @@ Django is a high-level Python Web framework that encourages rapid development an
 
 Quick steps to go through of this repo to work.
 
-Packages to me installed are:
+Packages to be installed are:
   python,
   django,
   djangorestframework,
   djangorestframework-jsonapi,
   django-filter.
   
-Create a project called django-jsonapi.
+django-admin startproject django_jsonapi
 
-Create an application called activity.
+python manage.py startapp activity
 
 Setup the INSTALLED_APPS, REST_FRAMEWORK and DATABASES in settings.py.
 
